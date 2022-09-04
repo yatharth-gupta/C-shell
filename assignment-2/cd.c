@@ -33,7 +33,7 @@ void cut_(char *current_dir, char *previous_dir)
         previous_dir[strlen(current_dir) - size - 1] = '\0';
     }
 }
-void cd__(char *tokens[], char *s, char *current_dir, char *prev, char *tilda, char *temp1)
+void cd__(char *tokens[], char *s, char *current_dir, char *prev, char *tilda, char *temp1, int token_size)
 {
     // tokens = strtok(NULL, s);
     // if (tokens == NULL)
@@ -49,7 +49,12 @@ void cd__(char *tokens[], char *s, char *current_dir, char *prev, char *tilda, c
     //     return;
     // }
     // printf("%s", tokens);
-    if (strcmp(tokens[1], "..") == 0)
+    if (token_size == 1)
+    {
+        strcpy(prev, current_dir);
+        strcpy(current_dir, tilda);
+    }
+    else if (strcmp(tokens[1], "..") == 0)
     {
         char prev_dir[100];
         // chdir(tokens);
@@ -66,7 +71,7 @@ void cd__(char *tokens[], char *s, char *current_dir, char *prev, char *tilda, c
     {
         strcpy(prev, current_dir);
     }
-    else if (strcmp(tokens[1], "~") == 0 || strcmp(tokens[1], "~/") == 0)
+    else if (strcmp(tokens[1], "~") == 0 || strcmp(tokens[1], "~/") == 0 || tokens[1] == NULL)
     {
         strcpy(prev, current_dir);
         strcpy(current_dir, tilda);
@@ -100,6 +105,7 @@ void cd__(char *tokens[], char *s, char *current_dir, char *prev, char *tilda, c
         // }
         // else
         // {
+            puts("hi");
         if (strcmp(tokens[1], "~") == 0)
         {
             // char new_dir[100];
@@ -147,6 +153,7 @@ void cd__(char *tokens[], char *s, char *current_dir, char *prev, char *tilda, c
                 // }
             }
         }
+        puts("hi");
         // printf("%s\n", temp1);
         // }
     }
