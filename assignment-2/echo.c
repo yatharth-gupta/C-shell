@@ -1,17 +1,14 @@
-#include<stdlib.h>
+#include <stdlib.h>
 #include "echo.h"
 #include <stdio.h>
-#include<string.h>
-void echo__(char* separated,char *s)
+#include <string.h>
+void echo__(char *tokens[], int token_size)
 {
-    separated = strtok(NULL, s);
-    if (separated != NULL)
-        printf("%s ", separated);
-    separated = strtok(NULL, s);
-    while (separated != NULL)
+    int i = 1;
+    while (i < token_size)
     {
-        printf("%s ", separated);
-        separated = strtok(NULL, s);
+        printf("%s ", tokens[i]);
+        i++;
     }
     printf("\n");
 }

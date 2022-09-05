@@ -6,6 +6,7 @@
 #include <sys/types.h>
 #include <stdlib.h>
 #include "cd.h"
+#include "variables.h"
 // #include "variables.h"
 void cut_(char *current_dir, char *previous_dir)
 {
@@ -33,7 +34,7 @@ void cut_(char *current_dir, char *previous_dir)
         previous_dir[strlen(current_dir) - size - 1] = '\0';
     }
 }
-void cd__(char *tokens[], char *s, char *current_dir, char *prev, char *tilda, char *temp1, int token_size)
+void cd__(char *tokens[],char *prev, char *temp1, int token_size)
 {
     // tokens = strtok(NULL, s);
     // if (tokens == NULL)

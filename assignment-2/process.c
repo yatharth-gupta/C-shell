@@ -25,8 +25,8 @@ void bg__(char *tokens[], int token_size)
     }
     else
     {
-        printf("%d\n", pid_value);
-        pids[pid_value] = 1;
+        printf("[%d] %d\n", ++x, pid_value);
+        pids[x-1] = pid_value;
         // printf("%d\n", pids[pid_value]);
         // signal(SIGCHLD)
         // // if (SIGCHLD)
@@ -88,3 +88,4 @@ int fg__(char *tokens[], int token_size)
     }
     return 1;
 }
+// time
