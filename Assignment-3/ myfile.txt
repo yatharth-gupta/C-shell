@@ -1,0 +1,2 @@
+error : no such command or file exists
+[;36m<yatharth@yatharth-VivoBook-ASUSLaptop-TP420IA-TM420IA:~>[0m

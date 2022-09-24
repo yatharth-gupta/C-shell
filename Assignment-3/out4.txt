@@ -1,0 +1,1 @@
+myfile.txt:-rwxrwxrwx 1 yatharth yatharth     0 Sep 24 12:22 history.txt

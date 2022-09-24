@@ -1,0 +1,44 @@
+total 328
+-rw-r--r-- 1 yatharth yatharth 106	Sep 23 22: 0[;37m  myfile.txt[0m
+drwxrwxr-x 2 yatharth yatharth 4096	Sep 24 14:30[;34m .[0m
+drwxrwxr-x 9 yatharth yatharth 4096	Sep 22  3:34[;34m ..[0m
+-rwxrwxr-x 1 yatharth yatharth 77360	Sep 24 14:30[;32m a.out[0m
+-rw-rw-r-- 1 yatharth yatharth 72470	Sep 23 16:36[;37m Assignment_3-Extending_the_shell.pdf[0m
+-rwxrwxrwx 1 yatharth yatharth 2353	Sep 24 12:57[;32m cd.c[0m
+-rwxrwxrwx 1 yatharth yatharth 128	Sep 24 12:57[;32m cd.h[0m
+-rwxrwxrwx 1 yatharth yatharth 5479	Sep  7 15:41[;32m discover.c[0m
+-rwxrwxrwx 1 yatharth yatharth 97	Sep  4 16:42[;32m discover.h[0m
+-rwxrwxrwx 1 yatharth yatharth 243	Sep  5 18:41[;32m echo.c[0m
+-rwxrwxrwx 1 yatharth yatharth 84	Sep  5 18:41[;32m echo.h[0m
+-rwxrwxrwx 1 yatharth yatharth 475	Sep  7 15:41[;32m history.c[0m
+-rwxrwxrwx 1 yatharth yatharth 84	Sep  4 14: 5[;32m history.h[0m
+-rwxrwxrwx 1 yatharth yatharth 0	Sep 24 14:30[;32m history.txt[0m
+-rw-rw-r-- 1 yatharth yatharth 3603	Sep 24 14:30[;37m ioredirection.c[0m
+-rw-rw-r-- 1 yatharth yatharth 156	Sep 24 12:18[;37m ioredirection.h[0m
+-rwxrwxrwx 1 yatharth yatharth 9881	Sep  7 16:11[;32m ls.c[0m
+-rwxrwxrwx 1 yatharth yatharth 78	Sep  4 16:43[;32m ls.h[0m
+-rw-r--r-- 1 yatharth yatharth 6	Sep 15 17: 3[;37m m[0m
+-rw-rw-r-- 1 yatharth yatharth 12673	Sep 24 14:25[;37m main.c[0m
+-rwxrwxrwx 1 yatharth yatharth 18429	Sep 24 14:32[;32m main1.c[0m
+-rwxrwxrwx 1 yatharth yatharth 22	Sep  7 15:28[;32m Makefile[0m
+-rw-r--r-- 1 yatharth yatharth 0	Sep 24 12:27[;37m myfile[0m
+-rw-r--r-- 1 yatharth yatharth 0	Sep 24 12:23[;37m myfile.tx[0m
+-rwxr-xr-x 1 yatharth yatharth 2172	Sep 24 12:23[;32m myfile.txt[0m
+-rw-rw-r-- 1 yatharth yatharth 1696	Sep 24 14:37[;37m out.txt[0m
+-rw-r--r-- 1 yatharth yatharth 0	Sep 23 22:12[;37m out.txt>output.txt[0m
+-rw-rw-r-- 1 yatharth yatharth 73	Sep 24 12:34[;37m out4.txt[0m
+-rw-rw-r-- 1 yatharth yatharth 155	Sep 24 12:35[;37m out5.txt[0m
+-rw-r--r-- 1 yatharth yatharth 35	Sep 24 12:44[;37m output.txt[0m
+-rwxrwxrwx 1 yatharth yatharth 3931	Sep  7 16:11[;32m pinfo.c[0m
+-rwxrwxrwx 1 yatharth yatharth 87	Sep  4 15:45[;32m pinfo.h[0m
+-rwxrwxrwx 1 yatharth yatharth 1467	Sep 24 14:26[;32m process.c[0m
+-rwxrwxrwx 1 yatharth yatharth 131	Sep  7 11: 4[;32m process.h[0m
+-rwxrwxrwx 1 yatharth yatharth 127	Sep 15  9:26[;32m pwd.c[0m
+-rwxrwxrwx 1 yatharth yatharth 52	Sep  1 15:13[;32m pwd.h[0m
+-rwxrwxrwx 1 yatharth yatharth 2168	Sep  7 16:11[;32m README.md[0m
+-rwxrwxrwx 1 yatharth yatharth 880	Sep 12 22:12[;32m try.c[0m
+-rw-rw-r-- 1 yatharth yatharth 449	Sep 24 13:22[;37m variables.h[0m
+-rwxrwxrwx 1 yatharth yatharth 295	Sep 23 21:33[;32m variables2.h[0m
+-rw-r--r-- 1 yatharth yatharth 6	Sep 24 12:40[;37m vfs.txt[0m
+-rw-rw-r-- 1 yatharth yatharth 17	Sep 15 17: 8[;37m yatharth.txt[0m
+
